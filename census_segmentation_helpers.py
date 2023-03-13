@@ -235,7 +235,6 @@ def KmeansCluster(X,N,verbose=0):
 #corder=(0,7,5,6,9,8,1,2,3,4)
 def clusterheatmap(df_centers,cmap='OrRd',clabels= None, figsize= (14,14), **kwargs): 
 
-
     df_cols = df_centers.columns
     fig = plt.figure(figsize=figsize)
     plt_style='seaborn'
