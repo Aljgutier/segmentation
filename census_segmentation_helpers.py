@@ -30,12 +30,8 @@ class gridplot:
         ax = self.fig.add_subplot(self.plotgrid[0],self.plotgrid[1],nthplot)
         return ax
 
-
-
 # Geo Plot States
 # https://towardsdatascience.com/plotting-geospatial-data-with-cartopy-4b5ad0da0761
-
-
 
 
 class geoplotstates:
@@ -120,8 +116,6 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_samples, silhouette_score
 
 def silhouetteplots(X,range_n_clusters,figsize=(18,18)):
-    
-
     plt_style='seaborn'
     matplotlib.style.use(plt_style)
     N=len(range_n_clusters)+1
