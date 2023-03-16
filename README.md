@@ -1,12 +1,19 @@
-# Segmentation
+# Segmentation Notebooks and Dashboards
 
-Segemtation Examples
-* Census Market Segmentation
-* RFM customer Segmentation (under development)
-* Demographic Persona Segmentation (under development)
+**Census Demographic Market Segmentation**
 
-# Notebooks
+[Census Zipcode Demographics Segmentation Notebook](https://github.com/Aljgutier/segmentation/blob/main/CensusSegmentation.ipynb) - Zip Code based Demographic Segmentation based on Race, Ethnicity, Education, Income, Industry, and Occupation. Methods includde K-means, Elbow Method, Silhoute Analysis/Score, geographic visulization with cartopy.
 
-[Census Zipcode Demographics Segmentation](https://github.com/Aljgutier/segmentation/blob/main/CensusSegmentation.ipynb) - Zip Code based Demographic Segmentation based on Race, Ethnicity, Education, Income, Industry, and Occupation. Methods includde K-means, Elbow Method, Silhoute Analysis/Score, geographic visulization with cartopy.
+**International Online Sales**
 
-[RFM Segmentation Onlne Sales](https://github.com/Aljgutier/segmentation/blob/main/RFM_Segmentation_OnlineSales.ipynb) - RFM data transformation and clustering (K-means) segmentation. 
+[RFM Segmentation Onlne Sales Notebook](https://github.com/Aljgutier/segmentation/blob/main/RFM_Segmentation_OnlineSales.ipynb) - The notebook develops RFM (Recency, Frequency and Monetary Value) a (K-means) clustering/segmentation and Minimum Euclidean Distance Model. In addition the notebook includes data transformations to generate BI data based on 9 month sliding window (monthly) to generate RFM and Segmentation BI data for 3 consecutive months - September, October, November. The BI data is the input for the RFM BI Segmentation BI Dashboard (below).
+
+[RFM Segmentation BI Dashboard](https://lookerstudio.google.com/reporting/04a3119c-46d5-4642-a3b9-d9730ab27f9f/page/9YsID) - BI RFM and Segmentation based on 9 months intervals for three consecutive months. The Dashboard provides insights to the Marketing direcctor showing the RFM KPIs and scores over time (monthly increments), trends, RFM by country, and customer based on three consecutive sliding 9-month periods.
+
+**Demographic Persona Segmentation**  
+
+\<Under Development>
+
+
+
+
