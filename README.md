@@ -2,7 +2,7 @@
 
 **Census Demographic Market Segmentation**
 
-[Census Zipcode Demographics Segmentation Notebook](https://github.com/Aljgutier/segmentation/blob/main/CensusSegmentation.ipynb) - Zip Code based Demographic Segmentation based on Race, Ethnicity, Education, Income, Industry, and Occupation. Methods includde K-means, Elbow Method, Silhoute Analysis/Score, geographic visulization with cartopy.
+[Census Zipcode Demographics Segmentation Notebook](https://github.com/Aljgutier/segmentation/blob/main/CensusSegmentation.ipynb) - Zip Code Demographic Segmentation based on Race, Ethnicity, Education, Income, Industry, and Occupation. Methods include K-means, Elbow Method, Silhoute Analysis/Score, geographic visulization with cartopy.
 
 <figure>
  <img alt="Census Segmentation" title="Census Segmentation" src="./diverse_highincome_zips.png" width="635">
