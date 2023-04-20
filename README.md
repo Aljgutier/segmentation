@@ -26,7 +26,7 @@
  * k-means clustering
  * Choose the number of clusters with the help of the following methods
    * Elbow Method based on WCSS (within cluster sum of squares)
-   * Silhouette Score = $(b-a)/max(a,b)$, where $a$ is the mean intra-cluster score $b$ and average inter-cluster distance.
+   * Silhouette Score = $(b-a)/max(a,b)$, where $a$ is the mean intra-cluster score $b$ is the average inter-cluster distance.
    * Heatmap with human interpretation of the clusters (see Figure 2, above)
    * Three dimensional Scatter plot analysis
 
